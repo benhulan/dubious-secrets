@@ -30,7 +30,7 @@ var capitalize = function() {
 		insultGenerator(firstOfFirst, firstOfLast, lastOfLast);
 	}
 	else {
-		alert('Illegal Character');
+		$('p').html("Please enter Firstname \[space\] Lastname");
 	}
 };
 
