@@ -70,7 +70,6 @@ var data1 = {
 	'X': 'Skipper',
 	'Y': 'Dinky',
 	'Z': 'Zsa-Zsa',
-	' ': 'Stuffy'
 };
 
 var data2 = {
@@ -100,7 +99,6 @@ var data2 = {
 	'X': 'Tofu',
 	'Y': 'Gorilla',
 	'Z': 'Stinker',
-	' ': 'Cheesy'
 };
 
 var data3 = {
@@ -130,6 +128,5 @@ var data3 = {
 	'X': 'humperdink',
 	'Y': 'brains',
 	'Z': 'juice',
-	' ': 'goose'
 };
 
