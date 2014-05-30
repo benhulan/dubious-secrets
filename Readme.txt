@@ -1,0 +1,8 @@
+Readme.txt
+
+A work in progress inspired by Bianca's example insult generator and "Captain Underpants and the Perilous Plot of Professor Poopypants" by Dav Pilkey.
+
+I have lots of ideas for this project so please don't publish, but feel free to download and play with it and I welcome your collaboration and comments.
+
+Cheers!
+-Ben Hulan
