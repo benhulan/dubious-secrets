@@ -1,5 +1,9 @@
 // Fake Shakespearean-sounding nickname data
 
+var insultGenerator = function(key1, key2, key3) {
+	$('p').html("Thy epitaph shall read: <strong>Thou " + data1[key1]  + data2[key2] + data3[key3] + '!</strong>');
+};
+
 var data1 = {
 	'A': 'Churlish',
 	'B': 'Beslubbering',

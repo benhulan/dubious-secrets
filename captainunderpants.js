@@ -1,5 +1,9 @@
 // Names from "Captain Underpants and the Perilous Plot of Professor Poopypants" by Dav Pilkey
 
+var insultGenerator = function(key1, key2, key3) {
+	$('p').html("Your new name is <strong>" + data1[key1]  + data2[key2] + data3[key3] + '!</strong>');
+};
+
 var data1 = {
 	'A': 'Stinky',
 	'B': 'Lumpy',
