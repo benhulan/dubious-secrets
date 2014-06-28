@@ -222,7 +222,7 @@ $("button").click(function() {
 
 		// Fake Shakespearean-sounding nickname data
 		insultGenerator = function(key1, key2, key3) {
-			$('p').html("Thou " + data1[key1]  + ", " + data2[key2] + " " + data3[key3] + "!");
+			$('p').html("Thou <strong>" + data1[key1]  + ", " + data2[key2] + " " + data3[key3] + "!</strong>");
 		};
 
 		data1 = {
