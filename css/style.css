@@ -1,0 +1,57 @@
+body{
+	background-color: #fff; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+}
+/*
+ body{
+	background-color: gray;
+	background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+	background-size: 50px 50px;
+}
+*/
+@media only screen and (max-width: 480px) {
+	#logo{
+		background-color: #666;
+		background-image:url(img/logo_sm.png);
+		background-repeat: no-repeat;
+		height:4em;
+		padding:0px;
+		width:100%;
+	}
+}
+
+@media only screen and (min-width: 481px) {
+	#logo{
+		background-color: #666;
+		background-image:url(img/logo.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		height:5em;
+		padding:0px;
+		width:100%;
+	}
+}
+
+.interface {
+	background-color:#FFF;
+	padding:20px;
+}
+
+.themes {
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	height:4em;
+}
+
+.themes > button {
+	margin-top:20px;
+	margin-left:10px;
+}
