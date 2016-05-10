@@ -1,3 +1,5 @@
+*.DS_Store
+
 CNAME
 captainunderpants.json
 data1.json
