@@ -1,0 +1,46 @@
+{"arabic": [{
+	// "'": "ء", // 'hamza' (gluttal stop like uh-oh)
+	"A": "ا",
+	//"A": "ع", // 'ayn' (water)
+	"B": "ب",
+	"C": "س", 
+	"CH":"ش", 
+	"D": "د", // 'del'
+	"DH": "ض", // 'dod'
+	"DH": "ظ",
+	"E": "ا",
+	"EE": "ي",
+	"F": "ف",
+	"G": "غ",
+	"H": "ه", // (almost silent)
+	"H": "ح", // (like blowing hot air)
+	"H": "خ",  // 'khaa' (Bach)
+	// "H": "غ", // 'ghayn' (like Bach, but voiced)
+	"I": "ي", // "ل" ???
+	"J": "ج",
+	"K": "ك",
+	"L": "ل",  // 'Iaam'
+	"M": "م",
+	"N": "ن",
+	"O": "و",
+	// "O": "عَ",
+	"P": "پ",
+	"Q": "ق",
+	"R": "ر", // 'ra'
+	"S": "س",
+	"SA": "ص", // 'sod'
+	"SH":"ش",  // 'shîn'
+	"T": "ت", // 'ta'
+	// "TA": "ة", 'tâ marbûta' (silent)
+	"TA": "ط", // 'taw'
+	"TH": "ث",  // 'Thâ' (thin, thick, through)
+	"TH": "ذ", // 'dhel' (there, the, those)
+	"U": "ؤ",
+	"V": "؋",
+	"W": "و",
+	"X": "س",
+	"Y": "ي", // 'yâ' (you or beet)
+	"Z": "ز" // 'zay'
+}]
+}
+
