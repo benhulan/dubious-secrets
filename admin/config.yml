@@ -13,7 +13,7 @@ site_url: http://benhulan.github.io/dubious-secrets/
 collections:
   - name: "index2"
     extension: "html"
-    folder: "./"
+    folder: "json"
     label: "Index2"
     fields:
       - {label: "Title", name: "title", widget: "string"}
