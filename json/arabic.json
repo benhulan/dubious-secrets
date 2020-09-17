@@ -1,46 +1,44 @@
-{"arabic": [{
-	// "'": "ء", // 'hamza' (gluttal stop like uh-oh)
-	"A": "ا",
-	//"A": "ع", // 'ayn' (water)
-	"B": "ب",
-	"C": "س", 
-	"CH":"ش", 
-	"D": "د", // 'del'
-	"DH": "ض", // 'dod'
-	"DH": "ظ",
-	"E": "ا",
-	"EE": "ي",
-	"F": "ف",
-	"G": "غ",
-	"H": "ه", // (almost silent)
-	"H": "ح", // (like blowing hot air)
-	"H": "خ",  // 'khaa' (Bach)
-	// "H": "غ", // 'ghayn' (like Bach, but voiced)
-	"I": "ي", // "ل" ???
-	"J": "ج",
-	"K": "ك",
-	"L": "ل",  // 'Iaam'
-	"M": "م",
-	"N": "ن",
-	"O": "و",
-	// "O": "عَ",
-	"P": "پ",
-	"Q": "ق",
-	"R": "ر", // 'ra'
-	"S": "س",
-	"SA": "ص", // 'sod'
-	"SH":"ش",  // 'shîn'
-	"T": "ت", // 'ta'
-	// "TA": "ة", 'tâ marbûta' (silent)
-	"TA": "ط", // 'taw'
-	"TH": "ث",  // 'Thâ' (thin, thick, through)
-	"TH": "ذ", // 'dhel' (there, the, those)
-	"U": "ؤ",
-	"V": "؋",
-	"W": "و",
-	"X": "س",
-	"Y": "ي", // 'yâ' (you or beet)
-	"Z": "ز" // 'zay'
-}]
+{
+  "0": "0",
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "4": "4",
+  "5": "5",
+  "6": "6",
+  "7": "7",
+  "8": "8",
+  "9": "9",
+  "@": "@",
+  "A": "\"apple\"",
+  "B": "\"blue\"",
+  "C": "\"cabbage\"",
+  "D": "\"dogfood\"",
+  "E": "\"edge\"",
+  "F": "fork",
+  "G": "goat",
+  "H": "hippo",
+  "I": "iguana",
+  "J": "jelly bean",
+  "K": "kangaroo",
+  ",": ",",
+  "L": "llama",
+  "M": "moose",
+  ".": "!",
+  "N": "nothing",
+  "/": "/",
+  "O": "otter",
+  "P": "pickle",
+  "Q": "query",
+  "R": "rosebud",
+  "S": "soup",
+  "T": "tabitha",
+  "U": "umber-hulk",
+  "V": "vulture",
+  "W": "web",
+  "X": "xylophone",
+  "title": "Test",
+  "Y": "yak",
+  "Z": "zebra",
+  "?": "?"
 }
-
