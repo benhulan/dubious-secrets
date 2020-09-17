@@ -1,0 +1,66 @@
+backend:
+  name: github
+  branch: gh-pages
+  repo: benhulan/dubious-secrets
+  api_root: https://api.github.com
+  base_url: https://api.netlify.com
+  cms_label_prefix: netlify-cms/
+  auth_endpoint: auth
+
+publish_mode: editorial_workflow
+media_folder: "img"
+site_url: http://benhulan.github.io/dubious-secrets/
+collections:
+  - name: "index2"
+    extension: "html"
+    folder: "./"
+    label: "Index2"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+  - name: "morse"
+    extension: json
+    folder: "json"
+    label: "Morse"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "A", name: "A", widget: "string"}
+      - {label: "B", name: "B", widget: "string"}
+      - {label: "C", name: "C", widget: "string"}
+      - {label: "D", name: "D", widget: "string"}
+      - {label: "E", name: "E", widget: "string"}
+      - {label: "F", name: "F", widget: "string"}
+      - {label: "G", name: "G", widget: "string"}
+      - {label: "H", name: "H", widget: "string"}
+      - {label: "I", name: "I", widget: "string"}
+      - {label: "J", name: "J", widget: "string"}
+      - {label: "K", name: "K", widget: "string"}
+      - {label: "L", name: "L", widget: "string"}
+      - {label: "M", name: "M", widget: "string"}
+      - {label: "N", name: "N", widget: "string"}
+      - {label: "O", name: "O", widget: "string"}
+      - {label: "P", name: "P", widget: "string"}
+      - {label: "Q", name: "Q", widget: "string"}
+      - {label: "R", name: "R", widget: "string"}
+      - {label: "S", name: "S", widget: "string"}
+      - {label: "T", name: "T", widget: "string"}
+      - {label: "U", name: "U", widget: "string"}
+      - {label: "V", name: "V", widget: "string"}
+      - {label: "W", name: "W", widget: "string"}
+      - {label: "X", name: "X", widget: "string"}
+      - {label: "Y", name: "Y", widget: "string"}
+      - {label: "Z", name: "Z", widget: "string"}
+      - {label: ".", name: ".", widget: "string"}
+      - {label: ",", name: ",", widget: "string"}
+      - {label: "?", name: "?", widget: "string"}
+      - {label: "/", name: "/", widget: "string"}
+      - {label: "@", name: "@", widget: "string"}
+      - {label: "1", name: "1", widget: "string"}
+      - {label: "2", name: "2", widget: "string"}
+      - {label: "3", name: "3", widget: "string"}
+      - {label: "4", name: "4", widget: "string"}
+      - {label: "5", name: "5", widget: "string"}
+      - {label: "6", name: "6", widget: "string"}
+      - {label: "7", name: "7", widget: "string"}
+      - {label: "8", name: "8", widget: "string"}
+      - {label: "9", name: "9", widget: "string"}
+      - {label: "0", name: "0", widget: "string"}
