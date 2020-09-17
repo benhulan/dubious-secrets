@@ -1,34 +1,29 @@
 body {
-	color: white;
+  color: black;
 	background-color: #c4c4c4;
 	background-image: url('img/classic-nude.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	color: #666;
 	font-family: sans-serif;
 }
 
 #content {
 	margin-top: 33%;
 	background:rgba(255,255,255,0.3);
-	/* background-color: transparent; */
 	text-align: center;
 	padding: 30px 10px;
 }
 
 h1 {
-	
 	font-size: 3.7em;
 	line-height: 1em;
 	margin-bottom:10px;
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color:#666;
-		
+	color:black;
 	font-family: 'Amatic SC', cursive;
-
 }
 
 #instructions {
@@ -52,7 +47,7 @@ h1 {
    padding:6px;
    font-size: 1em;
    margin: -3px 0px 0px 0px;
-   }
+}
 
 button {
   margin-top: 20px;
@@ -91,7 +86,7 @@ button#caps {
   font-family: 'Arial', sans-serif;
 }
 
-button#caps:hover, button#underpants {
+button#caps:hover, button.active {
   background: #ffbd59;
   background-image: -webkit-linear-gradient(top, #c99118, #eba640);
   background-image: -moz-linear-gradient(top, #c99118, #eba640);
@@ -105,7 +100,7 @@ button#caps:hover, button#underpants {
 
 #result {
 	margin-top: 15px;
-	color: gray;
+	color: black;
 	font-size: 1.5em;
 	font-family: 'Arial', sans-serif;
 	margin-bottom: 10px;

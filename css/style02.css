@@ -91,7 +91,7 @@ button#caps {
   font-family: 'Arial', sans-serif;
 }
 
-button#caps:hover, button#underpants {
+button#caps:hover, button.active {
   background: #ffbd59;
   background-image: -webkit-linear-gradient(top, #c99118, #eba640);
   background-image: -moz-linear-gradient(top, #c99118, #eba640);
