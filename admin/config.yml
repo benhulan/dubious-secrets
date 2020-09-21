@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: gh-pages
+  branch: netlify
   repo: benhulan/dubious-secrets
   api_root: https://api.github.com
   base_url: https://api.netlify.com
