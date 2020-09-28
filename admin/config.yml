@@ -8,101 +8,109 @@ backend:
   auth_endpoint: auth
 
 publish_mode: editorial_workflow
-media_folder: "img"
-site_url: http://benhulan.github.io/dubious-secrets/
+media_folder: 'img'
+site_url: http://benhulan.github.io/dubious-secrets
 collections:
-  - label: "Translators"
-    name: "translators"
-    extension: json
-    folder: "json"
+  - name: markdown
+    label: 'Markdown'
+    folder: 'markdown'
+    create: true
+    slug: 'test'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/test'
+    editor:
+      preview: false
     fields:
-      - name: "first of first"
-        label: "First of First"
-        widget: "object"
-        fields:
-          - { label: "A", name: "A", widget: "string"}
-          - { label: "B", name: "B", widget: "string"}
-          - { label: "C", name: "C", widget: "string"}
-          - { label: "D", name: "D", widget: "string"}
-          - { label: "E", name: "E", widget: "string"}
-          - { label: "F", name: "F", widget: "string"}
-          - { label: "G", name: "G", widget: "string"}
-          - { label: "H", name: "H", widget: "string"}
-          - { label: "I", name: "I", widget: "string"}
-          - { label: "J", name: "J", widget: "string"}
-          - { label: "K", name: "K", widget: "string"}
-          - { label: "L", name: "L", widget: "string"}
-          - { label: "M", name: "M", widget: "string"}
-          - { label: "N", name: "N", widget: "string"}
-          - { label: "O", name: "O", widget: "string"}
-          - { label: "P", name: "P", widget: "string"}
-          - { label: "Q", name: "Q", widget: "string"}
-          - { label: "R", name: "R", widget: "string"}
-          - { label: "S", name: "S", widget: "string"}
-          - { label: "T", name: "T", widget: "string"}
-          - { label: "U", name: "U", widget: "string"}
-          - { label: "V", name: "V", widget: "string"}
-          - { label: "W", name: "W", widget: "string"}
-          - { label: "X", name: "X", widget: "string"}
-          - { label: "Y", name: "Y", widget: "string"}
-          - { label: "Z", name: "Z", widget: "string"}
-      - name: "first of last"
-        label: "First of Last"
-        widget: "object"
-        fields:
-          - { label: "A", name: "A", widget: "string"}
-          - { label: "B", name: "B", widget: "string"}
-          - { label: "C", name: "C", widget: "string"}
-          - { label: "D", name: "D", widget: "string"}
-          - { label: "E", name: "E", widget: "string"}
-          - { label: "F", name: "F", widget: "string"}
-          - { label: "G", name: "G", widget: "string"}
-          - { label: "H", name: "H", widget: "string"}
-          - { label: "I", name: "I", widget: "string"}
-          - { label: "J", name: "J", widget: "string"}
-          - { label: "K", name: "K", widget: "string"}
-          - { label: "L", name: "L", widget: "string"}
-          - { label: "M", name: "M", widget: "string"}
-          - { label: "N", name: "N", widget: "string"}
-          - { label: "O", name: "O", widget: "string"}
-          - { label: "P", name: "P", widget: "string"}
-          - { label: "Q", name: "Q", widget: "string"}
-          - { label: "R", name: "R", widget: "string"}
-          - { label: "S", name: "S", widget: "string"}
-          - { label: "T", name: "T", widget: "string"}
-          - { label: "U", name: "U", widget: "string"}
-          - { label: "V", name: "V", widget: "string"}
-          - { label: "W", name: "W", widget: "string"}
-          - { label: "X", name: "X", widget: "string"}
-          - { label: "Y", name: "Y", widget: "string"}
-          - { label: "Z", name: "Z", widget: "string"}
-      - name: "last of last"
-        label: "Last of Last"
-        widget: "object"
-        fields:
-          - { label: "A", name: "A", widget: "string"}
-          - { label: "B", name: "B", widget: "string"}
-          - { label: "C", name: "C", widget: "string"}
-          - { label: "D", name: "D", widget: "string"}
-          - { label: "E", name: "E", widget: "string"}
-          - { label: "F", name: "F", widget: "string"}
-          - { label: "G", name: "G", widget: "string"}
-          - { label: "H", name: "H", widget: "string"}
-          - { label: "I", name: "I", widget: "string"}
-          - { label: "J", name: "J", widget: "string"}
-          - { label: "K", name: "K", widget: "string"}
-          - { label: "L", name: "L", widget: "string"}
-          - { label: "M", name: "M", widget: "string"}
-          - { label: "N", name: "N", widget: "string"}
-          - { label: "O", name: "O", widget: "string"}
-          - { label: "P", name: "P", widget: "string"}
-          - { label: "Q", name: "Q", widget: "string"}
-          - { label: "R", name: "R", widget: "string"}
-          - { label: "S", name: "S", widget: "string"}
-          - { label: "T", name: "T", widget: "string"}
-          - { label: "U", name: "U", widget: "string"}
-          - { label: "V", name: "V", widget: "string"}
-          - { label: "W", name: "W", widget: "string"}
-          - { label: "X", name: "X", widget: "string"}
-          - { label: "Y", name: "Y", widget: "string"}
-          - { label: "Z", name: "Z", widget: "string"}
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: generators
+    label: 'Generators'
+    folder: 'json'
+    extension: json
+    fields:
+      - { name: 'title',
+          label: 'Title',
+          widget: 'object',
+          fields:
+            - {label: 'A', name: 'A', widget: 'string'}
+              {label: 'B', name: 'B', widget: 'string'}
+              {label: 'C', name: 'C', widget: 'string'}
+              {label: 'D', name: 'D', widget: 'string'}
+              {label: 'E', name: 'E', widget: 'string'}
+              {label: 'F', name: 'F', widget: 'string'}
+              {label: 'G', name: 'G', widget: 'string'}
+              {label: 'H', name: 'H', widget: 'string'}
+              {label: 'I', name: 'I', widget: 'string'}
+              {label: 'J', name: 'J', widget: 'string'}
+              {label: 'K', name: 'K', widget: 'string'}
+              {label: 'L', name: 'L', widget: 'string'}
+              {label: 'M', name: 'M', widget: 'string'}
+              {label: 'N', name: 'N', widget: 'string'}
+              {label: 'O', name: 'O', widget: 'string'}
+              {label: 'P', name: 'P', widget: 'string'}
+              {label: 'Q', name: 'Q', widget: 'string'}
+              {label: 'R', name: 'R', widget: 'string'}
+              {label: 'S', name: 'S', widget: 'string'}
+              {label: 'T', name: 'T', widget: 'string'}
+              {label: 'U', name: 'U', widget: 'string'}
+              {label: 'V', name: 'V', widget: 'string'}
+              {label: 'W', name: 'W', widget: 'string'}
+              {label: 'X', name: 'X', widget: 'string'}
+              {label: 'Y', name: 'Y', widget: 'string'}
+              {label: 'Z', name: 'Z', widget: 'string'}
+            - {label: 'A', name: 'A', widget: 'string'}
+              {label: 'B', name: 'B', widget: 'string'}
+              {label: 'C', name: 'C', widget: 'string'}
+              {label: 'D', name: 'D', widget: 'string'}
+              {label: 'E', name: 'E', widget: 'string'}
+              {label: 'F', name: 'F', widget: 'string'}
+              {label: 'G', name: 'G', widget: 'string'}
+              {label: 'H', name: 'H', widget: 'string'}
+              {label: 'I', name: 'I', widget: 'string'}
+              {label: 'J', name: 'J', widget: 'string'}
+              {label: 'K', name: 'K', widget: 'string'}
+              {label: 'L', name: 'L', widget: 'string'}
+              {label: 'M', name: 'M', widget: 'string'}
+              {label: 'N', name: 'N', widget: 'string'}
+              {label: 'O', name: 'O', widget: 'string'}
+              {label: 'P', name: 'P', widget: 'string'}
+              {label: 'Q', name: 'Q', widget: 'string'}
+              {label: 'R', name: 'R', widget: 'string'}
+              {label: 'S', name: 'S', widget: 'string'}
+              {label: 'T', name: 'T', widget: 'string'}
+              {label: 'U', name: 'U', widget: 'string'}
+              {label: 'V', name: 'V', widget: 'string'}
+              {label: 'W', name: 'W', widget: 'string'}
+              {label: 'X', name: 'X', widget: 'string'}
+              {label: 'Y', name: 'Y', widget: 'string'}
+              {label: 'Z', name: 'Z', widget: 'string'}
+            - {label: 'A', name: 'A', widget: 'string'}
+              {label: 'B', name: 'B', widget: 'string'}
+              {label: 'C', name: 'C', widget: 'string'}
+              {label: 'D', name: 'D', widget: 'string'}
+              {label: 'E', name: 'E', widget: 'string'}
+              {label: 'F', name: 'F', widget: 'string'}
+              {label: 'G', name: 'G', widget: 'string'}
+              {label: 'H', name: 'H', widget: 'string'}
+              {label: 'I', name: 'I', widget: 'string'}
+              {label: 'J', name: 'J', widget: 'string'}
+              {label: 'K', name: 'K', widget: 'string'}
+              {label: 'L', name: 'L', widget: 'string'}
+              {label: 'M', name: 'M', widget: 'string'}
+              {label: 'N', name: 'N', widget: 'string'}
+              {label: 'O', name: 'O', widget: 'string'}
+              {label: 'P', name: 'P', widget: 'string'}
+              {label: 'Q', name: 'Q', widget: 'string'}
+              {label: 'R', name: 'R', widget: 'string'}
+              {label: 'S', name: 'S', widget: 'string'}
+              {label: 'T', name: 'T', widget: 'string'}
+              {label: 'U', name: 'U', widget: 'string'}
+              {label: 'V', name: 'V', widget: 'string'}
+              {label: 'W', name: 'W', widget: 'string'}
+              {label: 'X', name: 'X', widget: 'string'}
+              {label: 'Y', name: 'Y', widget: 'string'}
+              {label: 'Z', name: 'Z', widget: 'string'}
+        }
