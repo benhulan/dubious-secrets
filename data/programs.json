@@ -1,0 +1,24 @@
+{
+  "programs": [
+    {
+      "title": "Promo #1",
+      "image": {
+        "main": "/assets/images/blog/name-01.jpg",
+        "alt": "promo image"
+      },
+      "excerpt": "Lorem ipsum",
+      "ctatext": "Lorem ipsum",
+      "href": "https://www.linkedin.com"
+    },
+    {
+      "title": "Promo #2",
+      "image": {
+        "main": "/assets/images/blog/name-01.jpg",
+        "alt": "/assets/images/blog/name-01-alt.jpg"
+      },
+      "excerpt": "Lorem ipsum",
+      "ctatext": "Lorem ipsum",
+      "href": "https://github.com"
+    }
+  ]
+}

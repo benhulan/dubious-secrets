@@ -45,36 +45,31 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'team' 
-    label: 'Team Members'
-    label_singular: 'Team Member'
+  - name: 'programs' 
+    label: 'Multi-Opco Programs'
+    label_singular: 'Program'
     editor:
-        preview: false
-    delete: false
-    preview_path: 'team'
+      preview: false
+    delete: true
+    preview_path: 'programs'
     files:
-      - label: 'Members'
-        name: 'members'
-        file: 'data/members.json'
+      - label: 'Programs'
+        name: 'programs'
+        file: 'data/programs.json'
         fields:
-          - label: Members
-            name: members
+          - label: Programs
+            name: programs
+            label_singular: 'Program'
             widget: list
             allow_add: true
             fields:
-              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Title', name: 'title', widget: 'string' }
               - label: 'Image'
                 name: 'image'
                 widget: 'object'
                 fields:
                   - { label: 'Photo', name: 'main', widget: 'image' }
-                  - { label: 'Photo Alt', name: 'alt', widget: 'image' }
-              - { label: 'Position', name: 'position', widget: 'string' }
-              - { label: 'Bio', name: 'bio', widget: 'string' }
-              - { label: 'Background', name: 'background', widget: 'string' }
-              - label: 'Social'
-                name: 'social'
-                widget: 'list'
-                fields:
-                  - { label: 'Name', name: 'name', widget: 'string' }
-                  - { label: 'Link', name: 'link', widget: 'string' }
+                  - { label: 'Photo Alt Text', name: 'alt', widget: 'string' }
+              - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+              - { label: 'CTA Text', name: 'ctatext', widget: 'string' }
+              - { label: 'HREF', name: 'href', widget: 'string' }
