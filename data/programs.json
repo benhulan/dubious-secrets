@@ -1,13 +1,13 @@
 {
   "programs": [
     {
-      "title": "Promo #1",
+      "title": "Bill Saver Plus",
       "image": {
         "main": "/assets/images/blog/name-01.jpg",
         "alt": "promo image"
       },
       "excerpt": "Lorem ipsum",
-      "ctatext": "Lorem ipsum",
+      "ctatext": "Click here to save!",
       "href": "https://www.linkedin.com"
     },
     {
@@ -19,6 +19,16 @@
       "excerpt": "Lorem ipsum",
       "ctatext": "Lorem ipsum",
       "href": "https://github.com"
+    },
+    {
+      "title": "Peak time savings",
+      "excerpt": "excerpt",
+      "ctatext": "click here now",
+      "href": "www.google.com",
+      "image": {
+        "main": "/img/tshirt-background.jpg",
+        "alt": "t shirt"
+      }
     }
   ]
 }
