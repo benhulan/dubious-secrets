@@ -11,14 +11,30 @@ publish_mode: editorial_workflow
 media_folder: 'img'
 site_url: http://benhulan.github.io/dubious-secrets
 collections:
-  - name: markdown
-    label: 'Markdown'
-    folder: 'markdown'
+  - name: opco1
+    label: 'Opco 1 Content'
+    folder: 'markdown/opco1'
     create: true
-    slug: 'test'
+    slug: 'content'
     media_folder: ''
     public_folder: ''
-    path: '{{title}}/test'
+    path: '{{title}}/content'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: opco2
+    label: 'Opco2 Content'
+    folder: 'markdown/opco2'
+    create: true
+    slug: 'content'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/content'
     editor:
       preview: false
     fields:
