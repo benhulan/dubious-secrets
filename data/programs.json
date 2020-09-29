@@ -19,6 +19,16 @@
       "excerpt": "Lorem ipsum",
       "ctatext": "Lorem ipsum",
       "href": "https://github.com"
+    },
+    {
+      "title": "Peak time savings",
+      "excerpt": "excerpt",
+      "ctatext": "click here now",
+      "href": "www.google.com",
+      "image": {
+        "main": "/img/tshirt-background.jpg",
+        "alt": "t shirt"
+      }
     }
   ]
 }
