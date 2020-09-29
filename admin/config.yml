@@ -12,7 +12,8 @@ media_folder: 'img'
 site_url: http://benhulan.github.io/dubious-secrets
 collections:
   - name: opco1
-    label: 'Opco 1 Content'
+    label: 'Opco 1 Pages'
+    label_singular: 'Page'
     folder: 'markdown/opco1'
     create: true
     slug: 'content'
@@ -28,7 +29,8 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: opco2
-    label: 'Opco2 Content'
+    label: 'Opco2 Pages'
+    label_singular: 'Page'
     folder: 'markdown/opco2'
     create: true
     slug: 'content'
@@ -42,3 +44,37 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'team' 
+    label: 'Team Members'
+    label_singular: 'Team Member'
+    editor:
+        preview: false
+    delete: false
+    preview_path: 'team'
+    files:
+      - label: 'Members'
+        name: 'members'
+        file: 'data/members.json'
+        fields:
+          - label: Members
+            name: members
+            widget: list
+            allow_add: true
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - label: 'Image'
+                name: 'image'
+                widget: 'object'
+                fields:
+                  - { label: 'Photo', name: 'main', widget: 'image' }
+                  - { label: 'Photo Alt', name: 'alt', widget: 'image' }
+              - { label: 'Position', name: 'position', widget: 'string' }
+              - { label: 'Bio', name: 'bio', widget: 'string' }
+              - { label: 'Background', name: 'background', widget: 'string' }
+              - label: 'Social'
+                name: 'social'
+                widget: 'list'
+                fields:
+                  - { label: 'Name', name: 'name', widget: 'string' }
+                  - { label: 'Link', name: 'link', widget: 'string' }
