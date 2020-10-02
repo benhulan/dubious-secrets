@@ -92,7 +92,7 @@ collections:
             fields:
               - { label: 'Title', name: 'title', widget: 'string' }
               - label: 'Top Section'
-                name: 'top section'
+                name: 'top-section'
                 widget: object
                 fields:
                   - { label: 'Title', name: 'title', widget: 'string' }
@@ -106,13 +106,13 @@ collections:
                         name: 'image'
                         widget: 'object'
                         fields:
-                          - { label: 'Photo', name: 'main', widget: 'image' }
+                          - { label: 'Photo', name: 'src', widget: 'image' }
                           - { label: 'Photo Alt Text', name: 'alt', widget: 'string' }
                       - { label: 'Headline', name: 'headline', widget: 'string' }
                       - { label: 'CTA Text', name: 'ctatext', widget: 'string' }
                       - { label: 'HREF', name: 'href', widget: 'string' }
               - label: 'Bottom Section'
-                name: 'bottom section'
+                name: 'bottom-section'
                 widget: object
                 fields:
                   - { label: 'Title', name: 'title', widget: 'string' }
