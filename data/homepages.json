@@ -1,13 +1,13 @@
 {
   "homepages": [
     {
-      "title": "Opco",
+      "title": "Opco 1 Homepage",
       "top-section": {
         "title": "What's Hot Now",
         "promos": [
           {
             "title": "new appliances",
-            "col": 6,          
+            "col": 6,
             "image": {
               "src": "/img/image-01.jpg",
               "alt": "promo image 1"
@@ -62,6 +62,25 @@
             "content": "Only OpCo customers can take advantage of special pricing discounts and instant online rebates."
           }
         ]
+      },
+      "top section": {
+        "promos": [
+          {
+            "title": "new appliances",
+            "col": 6,
+            "image": {
+              "alt": "this is the alt text",
+              "main": "/img/confirmation-learn-more_small.png"
+            },
+            "headline": "Searching for new appliances?",
+            "ctatext": "Find and compare hundreds with OpCo Efficient Choice",
+            "href": "https://www.linkedin.com"
+          }
+        ],
+        "title": "What's Hot Now"
+      },
+      "bottom section": {
+        "title": "Marketplace makes energy-saving upgrades easy"
       }
     }
   ]
