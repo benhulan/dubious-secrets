@@ -1,0 +1,68 @@
+{
+  "homepages": [
+    {
+      "title": "Opco",
+      "top-section": {
+        "title": "What's Hot Now",
+        "promos": [
+          {
+            "title": "new appliances",
+            "col": 6,          
+            "image": {
+              "src": "/img/image-01.jpg",
+              "alt": "promo image 1"
+            },
+            "headline": "Searching for new appliances?",
+            "ctatext": "Find and compare hundreds with OpCo Efficient Choice",
+            "href": "https://www.linkedin.com"
+          },
+          {
+            "title": "free shipping",
+            "col": 6,
+            "image": {
+              "src": "/img/image-02.jpg",
+              "alt": "promo image 2"
+            },
+            "headline": "Save yourself the trip!",
+            "ctatext": "FREE shipping on all orders over $49",
+            "href": ""
+          },
+          {
+            "title": "ways to save",
+            "col": 12,
+            "image": {
+              "src": "/img/image-03.jpg",
+              "alt": "jumbo promo image 3"
+            },
+            "headline": "Rebates",
+            "ctatext": "Sit back and explore more energy-saving product rebates today.",
+            "href": "https://www.google.com"
+          }
+        ]
+      },
+      "bottom-section": {
+        "title": "Marketplace makes energy-saving upgrades easy and affordable for OpCo Residential customers.",
+        "promos": [
+          {
+            "title": "Smart Products",
+            "col": 4,
+            "icon": "img/lightning-bolt.svg",
+            "content": "Innovative technology puts you in control of your energy use, keeping you comfortable and connected."
+          },
+          {
+            "title": "Sustainable Energy",
+            "col": 4,
+            "icon": "img/house.svg",
+            "content": "Learn about optional pricing programs that help you save while reducing your energy footprint."
+          },
+          {
+            "title": "Big Savings",
+            "col": 4,
+            "icon": "img/wallet.svg",
+            "content": "Only OpCo customers can take advantage of special pricing discounts and instant online rebates."
+          }
+        ]
+      }
+    }
+  ]
+}

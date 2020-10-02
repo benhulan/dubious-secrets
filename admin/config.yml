@@ -47,7 +47,6 @@ collections:
 
   - name: 'programs' 
     label: 'Multi-Opco Programs'
-    label_singular: 'Program'
     editor:
       preview: false
     delete: true
@@ -73,3 +72,55 @@ collections:
               - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
               - { label: 'CTA Text', name: 'ctatext', widget: 'string' }
               - { label: 'HREF', name: 'href', widget: 'string' }
+
+  - name: 'homepages'
+    label: 'Multi-Opco Homepages'
+    editor:
+      preview: false
+    delete: true
+    preview_path: 'homepages'
+    files:
+      - label: 'Homepages'
+        name: 'homepages'
+        file: 'data/homepages.json'
+        fields:
+          - label: Homepages
+            name: homepages
+            label_singular: 'homepage'
+            widget: list
+            allow_add: true
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - label: 'Top Section'
+                name: 'top section'
+                widget: object
+                fields:
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - label: 'Promos'
+                    name: 'promos'
+                    widget: list
+                    fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Columns', name: 'col', widget: 'number' }
+                      - label: 'Image'
+                        name: 'image'
+                        widget: 'object'
+                        fields:
+                          - { label: 'Photo', name: 'main', widget: 'image' }
+                          - { label: 'Photo Alt Text', name: 'alt', widget: 'string' }
+                      - { label: 'Headline', name: 'headline', widget: 'string' }
+                      - { label: 'CTA Text', name: 'ctatext', widget: 'string' }
+                      - { label: 'HREF', name: 'href', widget: 'string' }
+              - label: 'Bottom Section'
+                name: 'bottom section'
+                widget: object
+                fields:
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - label: 'Promos'
+                    name: 'promos'
+                    widget: list
+                    fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Columns', name: 'col', widget: 'number' }
+                      - { label: 'Icon', name: 'icon', widget: 'string' }
+                      - { label: 'Content', name: 'content', widget: 'string' }
